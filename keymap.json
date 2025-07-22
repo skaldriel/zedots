@@ -1,0 +1,74 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-s": "workspace::Save"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-h": "workspace::ActivatePaneLeft",
+      "ctrl-j": "workspace::ActivatePaneDown",
+      "ctrl-k": "workspace::ActivatePaneUp",
+      "ctrl-l": "workspace::ActivatePaneRight"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-h": "workspace::ActivatePaneLeft",
+      "ctrl-j": "workspace::ActivatePaneDown",
+      "ctrl-k": "workspace::ActivatePaneUp",
+      "ctrl-l": "workspace::ActivatePaneRight",
+      "space b d": "pane::CloseActiveItem",
+      "space b o": "pane::CloseInactiveItems",
+      "space t": "terminal_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == normal && vim_operator == none && !VimWaiting",
+    "bindings": {
+      "space e": "project_panel::ToggleFocus",
+      "space g": "git_panel::ToggleFocus",
+      "space o": "outline_panel::ToggleFocus",
+      "space |": "pane::SplitVertical",
+      "space -": "pane::SplitDown",
+      "space space": "file_finder::Toggle",
+      "space a e": "assistant::InlineAssist",
+      "space a d": "agent::OpenAgentDiff",
+      "space a t": "agent::ToggleFocus",
+      "space t": "terminal_panel::ToggleFocus",
+      "space d": "tab_switcher::CloseSelectedItem",
+      "shift-l": "pane::ActivateNextItem",
+      "shift-h": "pane::ActivatePreviousItem"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-t": "workspace::ToggleBottomDock",
+      "ctrl-m": "workspace::ToggleZoom",
+      "ctrl-n": "workspace::NewCenterTerminal"
+    }
+  },
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "space e": "workspace::ToggleRightDock"
+    }
+  },
+  {
+    "context": "AgentPanel",
+    "bindings": {
+      "space a t": "workspace::ToggleRightDock"
+    }
+  }
+]
