@@ -27,10 +27,7 @@
       "ctrl-h": "workspace::ActivatePaneLeft",
       "ctrl-j": "workspace::ActivatePaneDown",
       "ctrl-k": "workspace::ActivatePaneUp",
-      "ctrl-l": "workspace::ActivatePaneRight",
-      "space b d": "pane::CloseActiveItem",
-      "space b o": "pane::CloseInactiveItems",
-      "space t": "terminal_panel::ToggleFocus"
+      "ctrl-l": "workspace::ActivatePaneRight"
     }
   },
   {
@@ -48,7 +45,9 @@
       "space t": "terminal_panel::ToggleFocus",
       "space d": "tab_switcher::CloseSelectedItem",
       "shift-l": "pane::ActivateNextItem",
-      "shift-h": "pane::ActivatePreviousItem"
+      "shift-h": "pane::ActivatePreviousItem",
+      "space b d": "pane::CloseActiveItem",
+      "space b o": "pane::CloseInactiveItems"
     }
   },
   {
