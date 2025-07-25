@@ -47,7 +47,8 @@
       "shift-l": "pane::ActivateNextItem",
       "shift-h": "pane::ActivatePreviousItem",
       "space b d": "pane::CloseActiveItem",
-      "space b o": "pane::CloseInactiveItems"
+      "space b o": "pane::CloseInactiveItems",
+      "space s g": "editor::FindAllReferences"
     }
   },
   {
