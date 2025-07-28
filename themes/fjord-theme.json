@@ -499,7 +499,7 @@
         "terminal.ansi.bright_white": "#FCFEFE",
         "syntax": {
           "attribute": {
-            "color": "#ff0000"
+            "color": "#92b3e3"
           },
           "boolean": {
             "color": "#64F3C4"
