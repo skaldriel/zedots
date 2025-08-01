@@ -448,7 +448,7 @@
         "ghost_element.background": "transparent",
         "ghost_element.hover": "#3A5F81",
         "ghost_element.active": "#6B9CBF",
-        "ghost_element.selected": "#6B9CBF",
+        "ghost_element.selected": "#3FBF9910",
         "ghost_element.disabled": "#081526",
         "text": "#7190A9",
         "text.muted": "#B9CBD7",
