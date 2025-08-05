@@ -14,7 +14,7 @@
         "border.selected": "#64F3C4",
         "border.transparent": "#00000000",
         "border.disabled": "#345B7E",
-        "elevated_surface.background": "#0C1C2D",
+        "elevated_surface.background": "#0C1C2",
         "surface.background": "#0C1C2D",
         "background": "#1A2A3A",
         "element.background": "#0C1C2D",
@@ -22,7 +22,7 @@
         "element.active": "#3FBF99",
         "element.selected": "#3FBF99",
         "element.disabled": "#0C1C2D",
-        "drop_target.background": "#A971E440",
+        "drop_target.background": "#A971E44",
         "ghost_element.background": "#00000000",
         "ghost_element.hover": "#345B7E",
         "ghost_element.active": "#3FBF99",
@@ -66,8 +66,8 @@
         "editor.invisible": "#345B7E",
         "editor.wrap_guide": "#64F3C41a",
         "editor.active_wrap_guide": "#64F3C433",
-        "editor.document_highlight.read_background": "#3FBF991a",
-        "editor.document_highlight.write_background": "#A971E433",
+        "editor.document_highlight.read_background": "#3FBF991",
+        "editor.document_highlight.write_background": "#A971E43",
         "editor.selection.background": "#A971E480",
         "terminal.background": "#0C1C2D",
         "terminal.foreground": "#AFC8DA",
@@ -146,7 +146,7 @@
         "players": [
           {
             "cursor": "#64F3C4",
-            "background": "#64F3C4",
+            "background": "#000",
             "selection": "#64F3C43d"
           },
           {
@@ -422,8 +422,8 @@
         "editor.active_wrap_guide": "#6B9CBF",
         "editor.indent_guide": "#082D31",
         "editor.indent_guide_active": "#135C4E",
-        "editor.highlighted_line.background": "#313244",
-        "editor.active_line.background": "#1A2A3A66",
+        "editor.highlighted_line.background": "#1A2A3A20",
+        "editor.active_line.background": "#1A2A3A",
         "editor.document_highlight.read_background": "#585B7050",
         "editor.document_highlight.write_background": "#585B7050",
         "editor.document_highlight.bracket_background": "#3A5F8199",
@@ -497,6 +497,13 @@
         "terminal.ansi.bright_magenta": "#FF8EBB",
         "terminal.ansi.bright_cyan": "#D0F4F9",
         "terminal.ansi.bright_white": "#FCFEFE",
+        "players": [
+          {
+            "cursor": "#3FBF99",
+            "background": "#3fbf99",
+            "selection": "#3fbf9910"
+          }
+        ],
         "syntax": {
           "attribute": {
             "color": "#92b3e3"
