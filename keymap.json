@@ -65,13 +65,13 @@
   {
     "context": "ProjectPanel",
     "bindings": {
-      "space e": "workspace::ToggleRightDock"
+      "ctrl-t": "workspace::ToggleRightDock"
     }
   },
   {
     "context": "AgentPanel",
     "bindings": {
-      "space a t": "workspace::ToggleRightDock"
+      "ctrl-t": "workspace::ToggleRightDock"
     }
   }
 ]
