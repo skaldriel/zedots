@@ -56,7 +56,10 @@
     "bindings": {
       "ctrl-t": "workspace::ToggleBottomDock",
       "ctrl-m": "workspace::ToggleZoom",
-      "ctrl-n": "workspace::NewCenterTerminal"
+      "ctrl-n": "workspace::NewTerminal",
+      "shift-l": "pane::ActivateNextItem",
+      "shift-h": "pane::ActivatePreviousItem",
+      "ctrl-d": "pane::CloseActiveItem"
     }
   },
   {
