@@ -499,6 +499,11 @@
         "terminal.ansi.bright_white": "#FCFEFE",
         "players": [
           {
+            "cursor": "#345b7e",
+            "background": "#345b7e",
+            "selection": "#345b7e10"
+          },
+          {
             "cursor": "#a374db",
             "background": "#a374db",
             "selection": "#a374db10"
